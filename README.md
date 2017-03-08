@@ -1,9 +1,10 @@
 # Whonix ESXi
-Whonix adaptation for VMware ESXi
+Whonix version 13.0.0.1.4 aptation for VMware ESXi
 
-VMware.mf - .ovf md5 hash deleted
+VMware.mf - .ovf sha1 hash deleted
+VMware.mf - .vmdk1 sha1 has changed
 
-OVFs reformatted for VMware - IDE changed to SAS, DVD removed, etc.
+OVFs reformatted for VMware - chaged ovf:size, IDE changed to SAS, DVD removed, etc.
 
 How to:
 
@@ -12,9 +13,10 @@ https://www.whonix.org/wiki/VirtualBox
 
 2. Unzip .ova file (7Zip) or (OVFTool --lax)
 
-3. Open .mf file with Notepad, remove first line: SHA1 (Whonix-Workstation/Gateway-13.0.0.1.1.ovf)= some md5 hash or replace with .mf
+3. Replace .mf file
 
-3. Replace .ovf file
+4. Replace .ovf file
 
-4. Import to ESXi/VCenter
+5. Import to ESXi/VCenter
 
+6. sudo nano /etc/whonix.d/30_whonixcheck_default.cong Change WHONIXCHECK_NO_EXIT_ON_UNSUPPORTED_VIRTUALIZER="0" to "1"
