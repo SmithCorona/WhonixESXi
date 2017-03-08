@@ -1,8 +1,8 @@
 # Whonix ESXi
 Whonix version 13.0.0.1.4 aptation for VMware ESXi
 
-VMware.mf - .ovf sha1 hash deleted
-VMware.mf - .vmdk1 sha1 has changed
+.mf - .ovf sha1 has deleted
+.mf - .vmdk1 sha1 has changed
 
 OVFs reformatted for VMware - chaged ovf:size, IDE changed to SAS, DVD removed, etc.
 
