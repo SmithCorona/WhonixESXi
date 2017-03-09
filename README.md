@@ -1,5 +1,5 @@
 # Whonix ESXi
-Whonix version 13.0.0.1.4 aptation for VMware ESXi
+Whonix version 13.0.0.1.4 adaptation for VMware ESXi
 
 .mf - .ovf sha1 has deleted
 .mf - .vmdk1 sha1 has changed
